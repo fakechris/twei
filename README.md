@@ -3,6 +3,10 @@ twei
 
 twei 是用 [node.js][0] 编写的微博命令行工具. 目前支持新浪微博的查看与发送.
 
+## chris的改造
+  1. npm -g install .
+  2. 运行 twei tail，第一次会让你输入key，再运行一次，就会循环显示最新的微博啦
+
 ## 环境
 
 twei 适用于所有可运行 node.js 的环境, 包括 _windows, linux, mac os(未测试), cygwin_ 等.
